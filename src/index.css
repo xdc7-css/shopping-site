@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Re-usable glass classes */
+.glass {
+  @apply bg-white/10 backdrop-blur-md rounded-3xl shadow-glass border border-white/20;
+}
+.glass-btn {
+  @apply bg-white/20 hover:bg-white/30 active:bg-white/40 border border-white/30 text-gray-900 dark:text-slate-100 rounded-2xl backdrop-blur-md transition px-4 py-2;
+}
+.input-glass {
+  @apply glass px-4 py-2 placeholder-slate-700/70 focus:outline-none focus:ring-2 focus:ring-white/50;
+}
+
+body { 
+  color: #0f172a; 
+}
