@@ -1,7 +1,7 @@
 {
   "name": "shopping-glass-react",
   "homepage": "https://hsynhdy379-oss.github.io/shoping-site/",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
